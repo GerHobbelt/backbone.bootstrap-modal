@@ -52,6 +52,7 @@
     events: {
       'click .close': function(event) {
         event.preventDefault();
+        event.stopPropagation();
 
         this.trigger('cancel');
 
@@ -61,6 +62,7 @@
       },
       'click .cancel': function(event) {
         event.preventDefault();
+        event.stopPropagation();
 
         this.trigger('cancel');
 
@@ -70,6 +72,7 @@
       },
       'click .ok': function(event) {
         event.preventDefault();
+        event.stopPropagation();
 
         this.trigger('ok');
 
