@@ -1,3 +1,6 @@
+ammend: add stopPropagation
+
+
 Backbone.BootstrapModal
 =======================
 
